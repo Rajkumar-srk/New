@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung.com</title>
+    <link rel="icon" href="samlogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        #a1{
+            width: 106px;
+            height: 43px;
+            padding-right: 55px;
+            padding-left: 10px;
+            padding-bottom: 4px;
+        }
+        nav,#a,#b{
+            display: flex;
+            justify-content: space-between;
+            font-size:14px;
+            padding: 5px 0px;
+            font-weight: bold;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        nav{
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+
+        }
+        #a{
+            width: 62%;
+            justify-content: space-between;
+            align-items: center;
+            left: 300px;
+        }
+        #b{
+            width: 20%;
+            justify-content: space-between;
+            align-items: center ;
+            padding-right: 40px;
+            padding-bottom: 5px;
+        }
+        #c{
+            position: absolute;
+            padding-top: 5px;
+            margin-left: -10px;
+        }
+        #d{
+            position: absolute;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 52px;
+            font-weight: 700px;
+            top: 230px;
+            left: 80px;
+        }
+        #e{
+            position: absolute;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+            top: 340px;
+            left: 80px;
+        }
+        #f{
+            position: absolute;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:15px;
+            font-weight: 900;
+            top: 440px;
+            left: 80px;
+        }
+        #g{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: white;
+            color: black;
+            top: 430px;
+            left: 170px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            font-size:13.2806px
+        }
+        #h{
+            position: absolute;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            font-size: 36.0472px;
+            top: 690px;
+            left: 480px;
+        }
+        #i{
+            position: absolute;
+            width: 50%;
+            top: 780px;
+            left:300px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17.075px;
+            font-weight: 700;
+        }
+        #j{
+            position: absolute;
+            top: 840px;
+            left: 15px;
+            border-radius: 4%;
+        }
+        #k{
+            position: absolute;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 22.7667px;
+            font-weight: 700;
+            top: 890px;
+            left: 250px;
+        }
+        #l{
+            position: absolute;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 22.7667px;
+            font-weight: 700;
+            top: 920px;
+            left: 220px;
+        }
+        #m{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            top: 940px;
+            left: 290px;
+        }
+        #n{
+            position: absolute;
+            top: 840px;
+            left: 690px;
+            border-radius: 4.9%;
+        }
+        #o{
+            position: absolute;
+            top: 840px;
+            left: 1025px;
+            border-radius: 4.9%;
+        }
+        #p{
+            position: absolute;
+            top: 1175px;
+            left: 690px;
+            border-radius: 4.9%;
+        }
+        #q{
+            position: absolute;
+            top: 1175px;
+            left: 1025px;
+            border-radius: 4.9%;
+        }
+        #r{
+            position: absolute;
+            top: 1037px;
+            left: 800px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 700;
+        }
+        #s{
+            position: absolute;
+            top: 1060px;
+            left: 765px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 700;
+        }
+        #t{
+            position: absolute;
+            top: 1075px;
+            left: 710px;
+            font-size: 13px;
+            font-weight: 300;
+        }
+        #u{
+            position: absolute;
+            top: 1037px;
+            left: 1100px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 700;
+        }
+        #v{
+            position: absolute;
+            top: 1060px;
+            left:1090px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 700;
+        }
+        #w{
+            position: absolute;
+            top: 1075px;
+            left: 1050px;
+            font-size: 13px;
+            font-weight: 300;
+        }
+        #x{
+            position: absolute;
+            top: 1370px;
+            left: 780px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 700;
+        }
+        #y{
+            position: absolute;
+            top: 1395px;
+            left: 775px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 700;
+        }
+        #z{
+            position: absolute;
+            top: 1414px;
+            left: 757px;
+            font-size: 13px;
+            font-weight: 300px;
+        }
+        #a11{
+            position: absolute;
+            top: 1350px;
+            left: 1050px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 700;
+        }
+        #a2{
+            position: absolute;
+            top: 1414px;
+            left: 1050px;
+            font-size: 13px;
+            font-weight: 300px;
+        }
+        #a3{
+            position: absolute;
+            top: 1528px;
+            right: 0.5px;
+        }
+        #a4{
+            position: absolute;
+            font-family:sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+            top: 1551px;
+            left: 490px;
+            color: white;
+        }
+        #a5{
+            position: absolute;
+            width: 70%;
+            top: 1630px;
+            left:200px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17.075px;
+            font-weight: 700;
+            color: white;
+        }
+        #a6{
+            position: absolute;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 52px;
+            font-weight: 700;
+            top: 2100px;
+            left: 490px;
+        }
+        #a7{
+            position: absolute;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+            top: 2150px;
+            left: 540px;
+        }
+        #a8{
+            position: absolute;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+            top: 2175px;
+            left: 580px;
+        }
+        #a9{
+            position: absolute;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:15px;
+            font-weight: 900;
+            top: 2235px;
+            left: 590px;
+        }
+        #b1{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: white;
+            color: black;
+            top: 2220px;
+            left: 680px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            font-size:13.2806px
+        }
+        #b2{
+            position: absolute;
+            right: 0.5px;
+            top: 2290px;
+        }
+        #b3{
+            position: absolute;
+            font-family:sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+            top: 2310px;
+            left: 590px;
+            color: white;
+        }
+        #b4{
+            position: absolute;
+            width: 41%;
+            top: 2385px;
+            left:340px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17.075px;
+            font-weight: 700;
+            color: white;
+        }
+        #b5{
+            position: absolute;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 52px;
+            font-weight: 700;
+            top: 2875px;
+            left: 560px;
+        }
+        #b6{
+            position: absolute;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+            top: 2930px;
+            left: 480px;
+        }
+        #b7{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: white;
+            color: black;
+            top: 2976px;
+            left: 620px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            font-size:13.2806px
+        }
+
+        #b8{
+            position: absolute;
+            right: 0.5px;
+            top: 3045px;
+        }
+        #b9{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 52px;
+            font-weight: 700;
+            top: 3045px;
+            left: 500px;
+        }
+        #c1{
+            position: absolute;
+            width: 85%;
+            top: 3140px;
+            left: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17.075px;
+            font-weight: 700;
+            color:black;
+        }
+        #c2{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 52px;
+            font-weight: 700;
+            top: 3610px;
+            left: 350px;
+        }
+        #c3{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+            top: 3670px;
+            left: 600px;
+        }
+        #c4{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+            top: 3695px;
+            left: 450px;
+        }
+        #c5{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: black;
+            color: white;
+            top: 3740px;
+            left: 620px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            font-size:13.2806px
+        }
+        #c6{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 52px;
+            font-weight: 700;
+            top: 3850px;
+            left: 350px;
+        }
+        #c7{
+            position: absolute;
+            top: 3950px;
+            left: 20px;
+            border-radius: 30px;
+        }
+        .c8{
+            position: absolute;
+            top: 4050px;
+            left: 800px;
+        }
+        #c9{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 45px;
+            font-weight: 700;
+            top: 4650px;
+            left: 450px;
+        }
+        #d1{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: white;
+            color: rgba(121, 117, 117, 0.651);
+            border-color: black;
+            top: 4760px;
+            left: 490px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 180px;
+            padding-right: 180px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            font-size:13.2806px
+        }
+        #d2{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: white;
+            border-color: rgba(194, 189, 189, 0.671);
+            top: 4820px;
+            left: 450px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+            font-size:13px
+        }
+        #d3{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: white;
+            border-color: rgba(194, 189, 189, 0.671);
+            top: 4820px;
+            left: 595px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+            font-size:13px
+        }
+        #d4{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: white;
+            border-color: rgba(194, 189, 189, 0.671);
+            top: 4820px;
+            left: 730px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+            font-size:13px
+        }
+        #d5{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: white;
+            border-color: rgba(194, 189, 189, 0.671);
+            top: 4820px;
+            left: 830px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+            font-size:13px
+        }        
+        #d6{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: white;
+            border-color: rgba(194, 189, 189, 0.671);
+            top: 4820px;
+            left: 930px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+            font-size:13px
+        }
+        #d7{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: white;
+            border-color: rgba(194, 189, 189, 0.671);
+            top: 4860px;
+            left: 610px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+            font-size:13px
+        }
+        #d8{
+            position: absolute;
+            border-width: 1px;
+            border-style: solid;
+            border-top-right-radius:    40px;
+            border-top-left-radius:     40px;
+            border-bottom-left-radius:  40px;
+            border-bottom-right-radius: 40px; 
+            background-color: white;
+            border-color: rgba(194, 189, 189, 0.671);
+            top: 4860px;
+            left: 740px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+            font-size:13px
+        }
+        #d9{
+            position: absolute;
+            top: 4980px;
+            left: 80px;
+            font-size: 13px;
+            font-weight: 300px;
+        }
+        #e1{
+            position: absolute;
+            top: 5010px;
+            left: 80px;
+            font-size: 13px;
+            font-weight: 300px;
+        }
+        #e2{
+            position: absolute;
+            top: 5040px;
+            left: 80px;
+            font-size: 13px;
+            font-weight: 300px;
+        }
+        #e3{
+            position: absolute;
+            top: 5070px;
+            left: 80px;
+            font-size: 13px;
+            font-weight: 300px;
+        }
+        #e4{
+            position: absolute;
+            top: 5100px;
+            left: 80px;
+            font-size: 13px;
+            font-weight: 300px;
+        }
+        #e5{
+            position: absolute;
+            top: 5130px;
+            left: 80px;
+            font-size: 13px;
+            font-weight: 300px;
+        }
+        #e6{
+            position: absolute;
+            top: 5160px;
+            left: 80px;
+            font-size: 13px;
+            font-weight: 300px;
+        }
+        #e7{
+            position: absolute;
+            top: 5190px;
+            left: 80px;
+            font-size: 13px;
+            font-weight: 300px;
+        }       
+        table{
+            border-collapse: collapse;
+            border: 0.5px solid rgba(184, 174, 174, 0.74);
+        }
+        td,th{
+            width: 500px;
+            height: 35px;
+            border-right:  0.5px solid rgba(184, 174, 174, 0.74);;
+        }
+        #e8{
+            position: absolute;
+            top: 5220px;
+            font-size: 13px;
+            font-weight: 300px;
+            text-align: center;
+        }
+        #e9{
+            position:fixed;
+            right: 30px;
+            bottom: 60px;
+            border-radius: 50%;
+            border: 2px solid;
+            border-color: rgb(15, 230, 15);
+        }
+        #f1{
+            position:fixed;
+            right: 0px;
+            bottom: 150px;
+        }
+        #f2{
+            position: absolute;
+            top: 5850px;
+            left: 30px;
+            font-size: 12px;
+            font-weight: 300px;
+        }
+        #f3{
+            position: absolute;
+            top: 5870px;
+            left: 30px;
+            font-size: 12px;
+            font-weight: 300px;
+        }    
+        #f4{
+            position: absolute;
+            top: 5890px;
+            left: 30px;
+            font-size: 12px;
+            font-weight: 300px;
+        }    
+        #f5{
+            position: absolute;
+            top: 5910px;
+            left: 30px;
+            font-size: 12px;
+            font-weight: 300px;
+        }   
+        #f6{
+            position: absolute;
+            top: 5930px;
+            left: 30px;
+            font-size: 12px;
+            font-weight: 300px;
+        }  
+        #f7{
+            position: absolute;
+            top: 5950px;
+            left: 30px;
+            font-size: 12px;
+            font-weight: 300px;
+        } 
+        #f8{
+            border-bottom: 2px solid;
+        }
+        #f9{
+            border-bottom: 2px solid;
+        }   
+        #g1{
+            border-bottom: 2px solid;
+        }   
+        #g2{
+            border-bottom: 2px solid;
+        }               
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="a">
+            <img src="sam22.jpg" alt="" id="a1">
+            <p>Shop</p>
+            <p>Mobile</p>
+            <p>TV & AV</p>
+            <p>HomeAppliance</p>
+            <p>Laptop & Moniters</p>
+            <p>Display</p>
+            <p>Acessories</p>
+            <p>Smart Things</p>
+        </div>
+        <div id="b">
+            <p>Support</p>
+            <p>For Business</p>
+            <p><i class="fa fa-search" aria-hidden="true"></i></p>
+            <p><i class="fa fa-shopping-cart" aria-hidden="true"></i></p>
+            <p><i class="fa fa-user" aria-hidden="true"></i></p>
+        </div>
+    </nav>
+    <div id="c">
+    <img src="sam11intro.jpg" width="1355px" height="90%"><br><br>
+    </div>
+    <h1 id="d">Galaxy S23 Series</h1>
+    <h2 id="e">Own Epic now at Just ₹2917*/mon<br>Avail benefits up to ₹18000*</h2>
+    <a href="#" id="f">Learn more</a>
+    <div id="g">
+       Buy now
+    </div>
+    <h2 id="h">This Week's Highlights</h2>
+    <nav>
+        <ul id="i">
+            <li id="f9">New In</li>
+            <li>Mobile</li>
+            <li>TV</li>
+            <li>Appliances</li>
+            <li>Galaxy Ecosystem</li>
+            <li>Samsung Live</li>
+        </ul>
+    </nav>
+    <img src="sam1.jpg" id="j" alt="" width="650px" height="645px">
+    <span id="k">Galaxy S23 Series</span>
+    <span id="l">Starting ₹ 2917/month</span>
+    <p id="m">Epic in Lime</p>
+    <img src="sam2.jpg" id="n" alt="" width="310px" height="310px">
+    <img src="sam3.jpg" id="o" alt="" width="310px" height="310px">
+    <img src="sam5.jpg" id="p" alt="" width="310px" height="310px">
+    <img src="sam4.jpg" id="q" alt="" width="310px" height="310px">
+    <span id="r">Galaxy S22</span>
+    <span id="s">Starting ₹ 2292/mo.*</span>
+    <p id="t">incl. ₹ 10000 off with instant bank discount & app<br>voucher</p>
+    <span id="u">Galaxy Flip3 5G</span>
+    <span id="v">Starting ₹ 40999*</span>
+    <p id="w">Bundle up with an accessory & get 5% off on both</p>
+    <span id="x">Odyssey OLED G8</span>
+    <span id="y">Starting ₹ 109399*</span>
+    <p id="z">incl. ₹ 18000 instant cart discount</p>
+    <p id="a11">Upto10%additional discount</p>
+    <p id="a2">instant bank discount + No cost EMI</p>
+    <img src="sam6.jpg" id="a3" alt="" width="100%" height="765px">
+    <h1 id="a4">Mobile Computing</h1>
+    <nav>
+        <ul id="a5">
+            <li id="g1">Galaxy S23 Ultra</li>
+            <li>Galaxy Book3 Series</li>
+            <li>Galaxy Tab S8 Series</li>
+            <li>Galaxy S22</li>
+            <li>Galaxy Watch5 | Watch 5Pro</li>
+        </ul>
+    </nav>
+    <span id="a6">Galaxy S23 Ultra</span>
+    <h2 id="a7">Own Epic now at Just ₹2917*/month</h2>
+    <h2 id="a8">Avail benefits up to ₹18000*</h2>
+    <a href="#" id="a9">Learn more</a>
+    <div id="b1">
+       Buy now
+    </div>
+    <img src="sam7.jpg" id="b2" alt="" width="100%" height="758px">
+    <h1 id="b3">TV & AV</h1>
+    <nav>
+        <ul id="b4">
+            <li id="g2">Neo QLED</li>
+            <li>QLED</li>
+            <li>OLED</li>
+            <li>The Frame</li>
+            <li>The Freestyle</li>
+        </ul>
+    </nav>
+    <span id="b5">Neo QLED</span>
+    <h2 id="b6">Get up to ₹ 24500* off with cashpack & appvoucher</h2>
+    <div id="b7">
+        Buy now
+     </div>
+     <img src="sam8.jpg" id="b8" alt="" width="100%" height="758px">
+     <h1 id="b9">Home Appliances</h1>
+     <nav>
+        <ul id="c1">
+            <li id="f8">BESPOKE Washer Dryer Combo</li>
+            <li>BESPOKE Side by Side Refrigerator</li>
+            <li>Convertible 5 in 1 AC</li>
+            <li>Ecobubble Top Load </li>
+            <li>Vaccum Cleaner</li>
+        </ul>
+     </nav>
+     <span id="c2">BESPOKE Washer Dryer Combo</span>
+     <h2 id="c3">Starting  ₹ 103500*</h2>
+     <h2 id="c4">incl. ₹ 26500* off with instant bank discount & app voucher</h2>
+     <div id="c5">
+        Buy now
+     </div>
+     <span id="c6">Explore # DOWhatYouCant</span>
+     <img src="sam9.jpg" id="c7" alt="" width="650px" height="650px">
+
+<div class="c8">
+        <h2>Tips for Navigating Big Life Changes</h2><br>
+        <h2>Feel Free to Freestyle</h2><br>
+        <h2>3 Hosting Tips to Alleviate Holiday Stress</h2><br>
+        <h2>Meet G·NUSMAS, the curious extraterrestrial</h2><br>
+        <h2>Solve for Tomorrow</h2><br>
+</div>
+<h1 id="c9">Looking for something else?</h1>
+<div id="d1">Search Keyword</div>
+<div id="d2">Galaxy S23 Ultra</div>
+<div id="d3">Galaxy Z Fold4</div>
+<div id="d4">QLED 8K</div>
+<div id="d5">UHD TVs</div>
+<div id="d6">Eco Bubble</div>
+<div id="d7">Curd Maestro</div>
+<div id="d8">Smart Moniter</div>
+<p id="d9">* 5G Devices are 5G ready, connectivity dependent on network availability.</p>
+<p id="e1">* Images shown here are for representational purpose only, actual may vary. All features, specifications and prices are subject to change without prior notice. Model availability may vary from location to location.</p>
+<p id="e2">* Image simulated. S Pen Fold Edition sold separately and is only compatible with Galaxy Z Fold4 and Galaxy Z Fold3.</p>
+<p id="e3">* Watch screen image simulated for illustrative purpose. Availability of colours, sizes, models, and watch bands may vary by country or carrier.</p>
+<p id="e4">* Image simulated. Available colours of Galaxy Buds2 Pro may vary by country or carrier.</p>
+<p id="e5"># T&C Apply. Cashback at the sole discretion of the issuer / NBFC.</p>
+<p id="e6">** Product launch dates vary from country to country. Some products may be launched earlier in few countries.</p>
+<p id="e7">* Offer valid on select models only.</p>
+<table id="e8">
+    <tr>
+        <th>Product & Service</th>
+        <th>Shop</th>
+        <th>Support</th>
+        <th>Account & Community</th>
+        <th>Sustainability</th>
+    </tr>
+    <tr>
+        <td>Smartphones</td>
+        <td>Cancellation & Return Policy</td>
+        <td>WhatsApp Us (हिंदी/ English) </td>
+        <td>My Page</td>
+        <td>Environment</td>
+    </tr>
+    <tr>
+        <td>Tablets</td>
+        <td>Track Order Status</td>
+        <td>Sign Language</td>
+        <td>My Product</td>
+        <td>Security & Privacy</td>
+    </tr>
+    <tr>
+        <td>Audio Sound</td>
+        <td>Welcome Voucher</td>
+        <td>Email Us</td>
+        <td>Orders</td>
+        <td>Accessbility</td>
+    </tr>
+    <tr>
+        <td>Watches</td>
+        <td>Samsung Referral Advantage</td>
+        <td>Call Us</td>
+        <td>whishlist</td>
+        <td>Diversity-Equality-Inclusion</td>
+    </tr>
+    <tr>
+        <td>Smart Switch</td>
+        <td>Samsung Student Advantage</td>
+        <td>Email the CEO</td>
+        <td>Voucher</td>
+        <td>Corparate Citizenship</td>
+    </tr>
+    <tr>
+        <td>Mobile Accessories</td>
+        <td>Defence Purchase Program</td>
+        <td>Community</td>
+        <td>My Referral</td>
+        <td>Corparate Sustainability</td>
+    </tr>
+    <tr>
+        <td>TVs</td>
+        <td>Corparate Employee Program</td>
+        <td>Product Registration</td>
+        <td>service</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Sound Devices</td>
+        <td>Corparate Bulk Purchase</td>
+        <td>Service Center</td>
+        <td>Communnity</td>
+        <th>About Us</th>
+    </tr>
+    <tr>
+        <td>Refrigerators</td>
+        <td>Samsung Experience Store</td>
+        <td>Share Your Opinion</td>
+        <td></td>
+        <td>Company Info</td>
+    </tr>
+    <tr>
+        <td>Laundry</td>
+        <td>Store Locator</td>
+        <td></td>
+        <td></td>
+        <td>Business Area</td>
+    </tr>
+    <tr>
+        <td>Air Solution</td>
+        <td>Smart Club</td>
+        <td></td>
+        <td></td>
+        <td>Brand Identity</td>
+    </tr>
+    <tr>
+        <td>Cookin Appliances</td>
+        <td>FAQs</td>
+        <td></td>
+        <td></td>
+        <td>Careers</td>
+    </tr>
+    <tr>
+        <td>Moniters</td>
+        <td>Term Of Use</td>
+        <td></td>
+        <td></td>
+        <td>Invester Relation</td>
+    </tr>
+    <tr>
+        <td>Memory Storage</td>
+        <td>Grievance Redressal</td>
+        <td></td>
+        <td></td>
+        <td> Newsroom</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Explore</td>
+        <td></td>
+        <td></td>
+        <td>Ethics</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Samsung Design</td>
+    </tr>
+</table>
+<img src="side1.png" id="e9"alt="" width="70px" height="70px">
+<img src="side2.png" id="f1" alt="" width="25px" height="90px">
+<p id="f2">Copyright ⓒ 1995-2023 SAMSUNG All Rights reserved.</p>
+<p id="f3">Please dispose of e-waste and plastic waste responsibly.</p>
+<p id="f4">For more information or e-waste pick up, please call 1800 5 7267864 or click here for more details.</p>
+<p id="f5">Registered Office Address: 6th Floor, DLF Centre, Sansad Marg, New Delhi-110001</p>
+<p id="f6">Corporate Identification Number (CIN): U31900DL1995PTC071387</p><hr>
+</body>
+</html>
